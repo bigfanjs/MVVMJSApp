@@ -1,0 +1,13 @@
+{
+  "name": "mvvmappexp",
+  "author": "Adel Jojo",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.13.1",
+    "morgan": "^1.0.0",
+    "body-parser": "^1.0.0",
+    "serve-favicon": "^1.0.0"
+  }
+}
