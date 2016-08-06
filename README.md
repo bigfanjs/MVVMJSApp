@@ -4,7 +4,7 @@ In this repository I've built a web application on top of an application-level s
 
 As you guys may know, just like MVC and MVP, MVVM helps you split your application into three different components. The key diffrence comes down to how those compoments interact with each other.
 
-We establish a two-way data binding between the view and the model by passing a 'data-bind' attribute to the view.
+We establish a two-way data binding between the view and the view model by passing a 'data-bind' attribute to the view. The ViewModel object exposes an ES6 Proxy so that every time a user action on the view involves accessing a property on the view model which in turn takes it from the model, a [Get] opration fires. And then the Proxy's get/set handlers delegate the operation to the model where they perform any manipulations.
 
 # usage
 
