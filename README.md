@@ -2,7 +2,7 @@
 
 In this repository I've built a web application on top of an application-level structure using the MVVM design pattern.
 
-As you guys may know, just like MVC and MVP, MVVM helps you split your application into three diffrent components. The key diffrence comes down to how those compoments interact with each other.
+As you guys may know, just like MVC and MVP, MVVM helps you split your application into three different components. The key diffrence comes down to how those compoments interact with each other.
 
 We establish a two-way data binding between the view and the model by passing a 'data-bind' attribute to the view.
 
